@@ -4,7 +4,7 @@ import React from 'react';
 export default function ElevatedCards() {
     return (
         <View>
-            <Text style={styles.headingText}>ElevatedCards</Text>
+            <Text style={styles.headingText}>Elevated Cards</Text>
             <ScrollView style={styles.container} horizontal showsHorizontalScrollIndicator={false}>
                 <View style={[styles.card, styles.cardElevated]}>
                     <Text>Tap</Text>
